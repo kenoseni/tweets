@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+tweepy = "*"
+pandas = "*"
+django-environ = "*"
+celery = "*"
+redis = "*"
+eventlet = "*"
+djangorestframework = "*"
+social-auth-app-django = "*"
+psycopg2 = "==2.7.7"
+psycopg2-binary = "==2.8.2"
+
+[requires]
+python_version = "3.7"
